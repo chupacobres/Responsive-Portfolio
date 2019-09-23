@@ -1,2 +1,1 @@
-# Responsive-Portfolio
-Exercise for Media Query
+# Basic-Portfolio

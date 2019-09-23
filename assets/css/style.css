@@ -1,0 +1,130 @@
+body {
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   line-height: 120%;
+   background-image: url(/assets/images/stone.png);
+
+}.name{
+   color: whitesmoke;
+   background-color: #4aaaa5;
+   padding: 8px;
+   text-align: center;
+   position: absolute;
+   top: 0px;
+   left: 300px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+   color: #4aa; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.separator{
+   background-color: gray;
+   height: 2px;
+   padding: 1px;
+}
+.textbox{
+   background-color: whitesmoke;
+   margin: 73px 130px 00px 130px;
+   width: 960px;
+}
+.copyright{
+   text-align: center;
+   background-color: rgb(199, 197, 197);
+   margin: 70px;
+   margin: 0px 304px 0px 130px;
+   width: 960px;
+}
+
+.greenline{
+   background-color: #4aaaa5;
+   height: 2px;
+   padding: 1px;
+   margin: 0px 302px 0px 130px;
+   width: 960px;
+}
+.image{
+   float: left;
+   margin: 10px;
+}
+.bio{
+   margin: 10px;
+}
+.about{
+   float: right;
+   }
+
+.portfolio{
+   float: right;
+   margin-left: 10px;
+   margin-right: 10px;
+   color:black;
+}
+.contact{
+   float:right;
+   color:black;
+}
+.header{
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.textbox-portfolio{
+   background-color: whitesmoke;
+   margin: 73px 130px 14px 130px;
+   width: 960px;
+}
+.header-portfolio{
+   color: #4aa; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 10px;
+   padding-left: 5px;
+}
+a{
+   color: black;
+}
+a:hover{
+   background-color: #4aaaa5
+}
+.message{
+   height: 100px;
+   width: 850px;
+   margin-left: 45px;
+}
+@media only screen and (max-width: 980px) {
+.textbox{
+   width: 700px;
+}
+.textbox-portfolio{
+   width: 700px;
+}
+.message{
+   height: 100px;
+   width: 500px;
+   margin-left: 45px;
+}
+.greenline{
+   width: 700px;
+}
+.copyright{
+   width: 700px;
+}
+}
+@media only screen and (max-width: 768px) {
+.textbox{
+   width: 500px;
+}
+.greenline{
+   width: 500px;
+}
+.copyright{
+   width: 500px;
+}
+}
+@media only screen and (max-width: 640px) {
+
+}
+
+
